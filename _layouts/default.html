@@ -5,11 +5,15 @@
 		<title>{{page.title}}</title>
 		<meta name="description" content="Website of Simon Legner.">
 		<link rel="stylesheet" href="/css/style.css" type="text/css">
+		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Walter+Turncoat' type='text/css'>
 	</head>
 	<body>
 		<header>
-			<div id="title">Simon Legner</div>
+			<div id="title">
+				<a href="{{site.baseurl}}">Simon Legner</a>
+			</div>
 			<nav>
+			  {% include Menu.html %}
 			</nav>
 		</header>
 		<div id="headersub"></div>
