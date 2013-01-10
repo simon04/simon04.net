@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Chemistry
 ---
 My interest in chemistry has its beginnings – in fact quite late – at the age of 14. At that time I spontaneously decided to attend chemical exercises (__Chemische Übungen__) in addition to the chemistry classes. On the one hand, one could conduct chemical experiments on your own – on the other hand, I was interested in theoretical explanations and justifications for chemical phenomena.

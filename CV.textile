@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Curriculum Vitae
 ---
 |since 09/2010|master in "computer science":ComputerScience|

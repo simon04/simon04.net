@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Webpages
 ---
 * "alpwirtschaft.com":http://alpwirtschaft.com/ – A webpage of my father's lectures

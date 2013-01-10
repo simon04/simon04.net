@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Computer Science
 ---
 In 2006 I began my studies of "Computer Science":http://informatik.uibk.ac.at/ at the "University of Innsbruck":http://uibk.ac.at/. Some selected papers and activities are listed below:

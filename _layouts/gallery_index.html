@@ -1,0 +1,11 @@
+---
+layout: page
+---
+{% for gallery in page.galleries %}
+  <section>
+    <a href="{{ gallery['gallery'] }}">
+      <h2>{{ gallery["name"] }}</h2>
+      <img src="{{ gallery['gallery'] }}/thumbs/{{ gallery['best_image'] }}">
+    </a>
+  </section>
+{% endfor %}
