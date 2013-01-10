@@ -1,0 +1,29 @@
+---
+layout: post
+title: ! 'TK202 GPS/GPRS tracker: firmware update'
+tags:
+- misc
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+---
+Today, I successfully updated the firmware of some TK202 GPS/GPRS trackers, labelled <em>simtrace TK202</em>, bought in 2009 or so.
+
+<a href="http://blog.simon04.net/wp-content/uploads/2012/07/tk202.jpg"><img class="alignnone size-medium wp-image-19" title="TK202" src="http://blog.simon04.net/wp-content/uploads/2012/07/tk202-300x214.jpg" alt="" width="300" height="214" /></a>
+
+&nbsp;
+
+Here's what I did:
+<ol>
+	<li>Get a USB cable, I used <a href="http://www.itakka.com/index.php?main_page=product_info&amp;cPath=1&amp;products_id=1">this one</a></li>
+	<li>Install latest <a href="http://prolificusa.com/pl-2303hx-drivers/">PL-2303 driver from prolificusa.com</a></li>
+	<li>Obtain firmware for <em>TK102 (Ohne SD Kartenslot)</em> from <a href="http://www.yourgps.de/content/de/Downloads/Firmwares">yourgps.de</a></li>
+	<li>Extract archive</li>
+	<li>Follow instructions from the enclosed document.
+This screenshot summarizes the procedure:
+<a href="http://blog.simon04.net/wp-content/uploads/2012/07/stc-isp-annotated.png"><img class="alignnone size-medium wp-image-24" title="stc-isp-annotated" src="http://blog.simon04.net/wp-content/uploads/2012/07/stc-isp-annotated-300x226.png" alt="" width="300" height="226" /></a></li>
+	<li>Afterwards, the GPRS transmission was working nicely. In particular, I was no longer getting a <code>APN failed!</code> after sending an <code>apnuser123456</code>/<code>apnpasswd123456</code> command.
+To test the GPRS transmission, you might find <a href="http://id.wialon.net/">GPS Device Unique ID Checker</a> helpful.</li>
+</ol>

@@ -1,0 +1,25 @@
+---
+layout: post
+title: Force Firefox 3.0 to install Extension
+tags:
+- misc
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+---
+Hello,
+
+there are several older add-ons hanging around there which don't support Firefox 3.0 officially. Therefore Firefox quits the installation on 2 reasons:
+<ol>
+	<li><em>... could not be installed because it is not compatible with Firefox ... </em></li>
+	<li><em>... will not be installed because it does not provide secure updates.</em></li>
+</ol>
+To fix these problems add a new boolean value in the <a href="about:config">about:config</a>'s table and set the value to be <em>false</em> each.
+<ol>
+	<li><a href="http://kb.mozillazine.org/Extensions.checkCompatibility">extensions.checkCompatibility</a></li>
+	<li><a href="http://kb.mozillazine.org/Extensions.checkUpdateSecurity">extensions.checkUpdateSecurity </a></li>
+</ol>
+Cheers,
+Simon
