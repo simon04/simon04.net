@@ -2,7 +2,6 @@
 layout: default
 title: Computer Science
 ---
-h1. Computer Science
 In 2006 I began my studies of "University of Innsbruck":http://informatik.uibk.ac.at/|Computer Science]] at the [[http://uibk.ac.at/. Some selected papers and activities are listed below:
 
 * WS 2011: Conducting a proseminar in "Logic in Computer Science":http://cl-informatik.uibk.ac.at/teaching/ws11/lics/

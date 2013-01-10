@@ -2,6 +2,4 @@
 layout: default
 title: Feedback
 ---
-h1. Feedback
-
 An anonymous feedback form is about to come. A reCaptcha validation field will be unavoidable due to spam.

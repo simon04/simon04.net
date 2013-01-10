@@ -2,8 +2,6 @@
 layout: default
 title: Curriculum Vitae
 ---
-h1. Curriculum Vitae
-
 |since 09/2010|master in "computer science":ComputerScience|
 |10/2006–11/2010|bachelor in computer science|
 |09/2008–05/2009|civilian service: "Avalanche Warning Service Tyrol":http://lawine.tirol.gv.at/en/|

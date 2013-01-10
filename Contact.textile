@@ -2,7 +2,6 @@
 layout: default
 title: Contact
 ---
-h1. Contact
 Feel free to get in contact with me for any reason.
 
 |=E-Mail|"Simon.Legner@gmail.com":mailto:Simon.Legner@gmail.com|
