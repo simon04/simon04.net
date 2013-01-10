@@ -1,1 +1,7 @@
 permalink: /:year/:month/:title	
+gallery:
+  title: Photography
+  dir: Photography
+  title_prefix: ""
+  thumbnail_size:
+    x: 640

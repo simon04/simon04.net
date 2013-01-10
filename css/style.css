@@ -111,12 +111,18 @@ li {
 
 #photography section {
   white-space: nowrap;
-  overflow-y: hidden;
-  overflow-x: scroll;
   margin: 10px 0 20px;
   background: #222;
   color: white;
   padding: 20px;
+  display: inline-block;
+  margin-right: 200px;
+  width: 455px;
+  text-align: center;
+}
+
+#photography a {
+  color: inherit !important;
 }
 
 #photography h2 {
@@ -125,7 +131,7 @@ li {
 }
 
 #photography section img {
-  height: 200px;
   margin: 0 10px 0 0;
   border: 1px solid #444;
+  max-width: 400px;
 }
