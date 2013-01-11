@@ -13,7 +13,7 @@ there are several older add-ons hanging around there which don't support Firefox
 To fix these problems add a new boolean value in the "about:config":about:config's table and set the value to be @false@ each.
 
 * "extensions.checkCompatibility":http://kb.mozillazine.org/Extensions.checkCompatibility
-* "extensions.checkUpdateSecurity ":http://kb.mozillazine.org/Extensions.checkUpdateSecurity
+* "extensions.checkUpdateSecurity":http://kb.mozillazine.org/Extensions.checkUpdateSecurity
 
 Cheers,
 Simon
