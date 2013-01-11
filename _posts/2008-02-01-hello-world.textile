@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Hello world!
-status: publish
-type: post
 published: true
 ---
 Welcome visitors to my blog!

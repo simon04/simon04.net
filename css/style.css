@@ -100,7 +100,7 @@ article a {
   color: #006699;
 }
 
-li {
+ul > li {
   list-style-type: circle;
 }
 
@@ -134,4 +134,9 @@ li {
   margin: 0 10px 0 0;
   border: 1px solid #444;
   max-width: 400px;
+}
+code {
+  font-size: inherit;
+  /*background: rgba(0, 34, 51, 0.05);*/
+  background: #F2F3F4;
 }

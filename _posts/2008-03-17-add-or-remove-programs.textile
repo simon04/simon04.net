@@ -1,11 +1,9 @@
 ---
 layout: post
 title: Add or Remove Programs
-status: publish
-type: post
 published: true
 ---
-Using Windows I often need to get the _Add or Remove Programs_ screen. Navigating through _Start _» _Settings _» _Control Panel _» _Add or Remove Programs_ is unhandy. Just get the Run dialog by pressing <code>[Win] + [R]</code> and enter <code>appwiz.cpl</code>.
+Using Windows I often need to get the _Add or Remove Programs_ screen. Navigating through _Start_ » _Settings_ » _Control Panel_ » _Add or Remove Programs_ is unhandy. Just get the Run dialog by pressing @[Win] + [R]@ and enter @appwiz.cpl@.
 
 Cheers
 
