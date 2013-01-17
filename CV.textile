@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Curriculum Vitae
+permalink: CV/
 ---
 |since 09/2010|master in "computer science":ComputerScience|
 |10/2006–11/2010|bachelor in computer science|

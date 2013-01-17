@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Webpages
+permalink: Webpages/
 ---
 * "alpwirtschaft.com":http://alpwirtschaft.com/ – A webpage of my father's lectures
 * "u.simon04.net":http://u.simon04.net/ – A Unicode character table
