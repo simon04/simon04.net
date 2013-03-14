@@ -140,3 +140,11 @@ code {
   /*background: rgba(0, 34, 51, 0.05);*/
   background: #F2F3F4;
 }
+pre code {
+  overflow-y: scroll;
+  display: block;
+}
+
+hr {
+  border-top: 1px solid #006699;
+}
