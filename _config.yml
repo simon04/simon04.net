@@ -1,7 +1,12 @@
-permalink: /:year/:month/:title	
-exclude: upload.sh
+permalink: /:year/:month/:title/
+exclude:
+- upload.sh
+- jekyll-gallery-generator
+gems:
+- jekyll-textile-converter
 gallery:
   title: Photography
+  sort_field: title
   dir: Photography
   title_prefix: ""
   thumbnail_size:
