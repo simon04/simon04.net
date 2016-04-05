@@ -39,6 +39,14 @@ article {
   padding-right: 160px;
 }
 
+@media(max-width:799px) {
+  header > *, footer > div, article {
+    width: auto;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+}
+
 h1 {
   line-height: 1.2;
   color: #697433;
