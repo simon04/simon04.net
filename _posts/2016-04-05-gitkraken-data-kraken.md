@@ -13,8 +13,7 @@ GitKraken soon listed all my Git repository on my computer which is a cool featu
 
 I decided to investigate the network traffic using [mitmproxy](https://mitmproxy.org/). The challenge was to obtain the GitKraken traffic. Since I could not find a proxy configuration within GitKraken. I followed [this tutorial](https://www.darkcoding.net/software/decrypt-your-https-traffic-with-mitmproxy/) to configure mitmproxy in the "Transparent Proxy" mode. I did not install the CA, though.
 
-Registering
------------
+## Registering
 
 I registered in the application …
 ![](/img/2016/04/gitkraken-register-app.png)
@@ -30,21 +29,18 @@ But, wait! Mitmproxy intercepts the HTTPS traffic and encrypts it again using it
 
 This means that **GitKraken does accept any certificate for api.gitkraken.com**!
 
-Confirmation
-------------
+## Confirmation
 
 I clicked on the confirmation link sent via email (`https://api.gitkraken.com/activate/d810cfe7-c828-47af-860f-9e71cbd68ded/0746…`, note the `id` from above). The application makes a request to `https://api.gitkraken.com/phone-home` to check the registration status:
 [![](/img/2016/04/gitkraken-registercheck-net1.png)](/img/2016/04/gitkraken-registercheck-net1.png)
 [![](/img/2016/04/gitkraken-registercheck-net2.png)](/img/2016/04/gitkraken-registercheck-net2.png)
 
-Application start
------------------
+## Application start
 
 After every start of the application, `https://api.gitkraken.com/phone-home` is requested again. Besides re-checking the activation status this aims at submitting usage/timing statistics, of course together with the `id`:
 [![](/img/2016/04/gitkraken-appstart-net1.png)](/img/2016/04/gitkraken-appstart-net1.png)
 [![](/img/2016/04/gitkraken-appstart-net2.png)](/img/2016/04/gitkraken-appstart-net2.png)
 
-Summary
--------
+## Summary
 
 You can man-in-the-middle `api.gitkraken.com` and obtain usage/timing statistics every time the user opens GitKraken.

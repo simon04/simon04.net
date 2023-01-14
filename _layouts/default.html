@@ -1,26 +1,22 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>{{page.title}}</title>
-		<meta name="description" content="Website of Simon Legner.">
-		<link rel="stylesheet" href="/css/style.css" type="text/css">
-	</head>
-	<body>
-		<header>
-			<div id="title">
-				<a href="/">Simon Legner</a>
-			</div>
-			<nav>
-			  {% include Menu.html %}
-			</nav>
-		</header>
-		<div id="headersub"></div>
-		<article id="{{page.title | downcase}}">
-		  {{content}}
-		</article>
-		<footer>
-			<div>© Simon Legner, 2011–{{site.time|date:"%Y"}}</div>
-		</footer>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>{{page.title}}</title>
+    <meta name="description" content="Website of Simon Legner." />
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <div id="title">
+        <a href="/">Simon Legner</a>
+      </div>
+      <nav>{% include Menu.html %}</nav>
+    </header>
+    <div id="headersub"></div>
+    <article id="{{page.title | downcase}}">{{content}}</article>
+    <footer>
+      <div>© Simon Legner, 2011–{{site.time|date:"%Y"}}</div>
+    </footer>
+  </body>
 </html>

@@ -3,13 +3,14 @@ layout: post
 title: MySQL connector for Python 3.3
 published: true
 ---
+
 Recently, I've been struggling to find a suitable MySQL connector for Python 3.3. Here's what I figured:
 
 The following pip packages provide MySQL support for Python 3.3:
 
--   [CyMySQL](https://pypi.python.org/pypi/cymysql/0.5.5) (updated 2013-03-12, a fork of PyMySQL3)
--   [mysql-connector-python](https://pypi.python.org/pypi/mysql-connector-python/1.0.9) (updated 2013-02-21)
--   [PyMySQL3](https://pypi.python.org/pypi/PyMySQL3/0.5) (updated 2011-11-08)
+- [CyMySQL](https://pypi.python.org/pypi/cymysql/0.5.5) (updated 2013-03-12, a fork of PyMySQL3)
+- [mysql-connector-python](https://pypi.python.org/pypi/mysql-connector-python/1.0.9) (updated 2013-02-21)
+- [PyMySQL3](https://pypi.python.org/pypi/PyMySQL3/0.5) (updated 2011-11-08)
 
 You might also want to browse through [other packages on PyPI](https://pypi.python.org/pypi?:action=browse&show=all&c=256&c=533).
 

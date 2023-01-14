@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
+
 <h1>
   <a href="/{{ site.gallery.dir }}">{{ page.title }}</a>
 </h1>
 <section id="imagelist">
   {% for image in page.images %}
-    <img src="thumbs/{{ image }}" />
+  <img src="thumbs/{{ image }}" />
   {% endfor %}
 </section>

@@ -28,7 +28,9 @@ footer {
   text-align: center;
 }
 
-header > *, footer > div, article {
+header > *,
+footer > div,
+article {
   width: 800px;
   margin: 0 auto;
   position: relative;
@@ -39,8 +41,10 @@ article {
   padding-right: 160px;
 }
 
-@media(max-width:799px) {
-  header > *, footer > div, article {
+@media (max-width: 799px) {
+  header > *,
+  footer > div,
+  article {
     width: auto;
     padding-left: 4px;
     padding-right: 4px;
@@ -60,7 +64,9 @@ h2 {
   margin: 20px 0 0;
 }
 
-p, ul, ol {
+p,
+ul,
+ol {
   margin: 0 0 5px;
 }
 
@@ -87,7 +93,8 @@ table {
   margin: 10px 0;
 }
 
-td, th {
+td,
+th {
   vertical-align: top;
   text-align: left;
   padding-right: 10px;
@@ -146,7 +153,7 @@ ul > li {
 code {
   font-size: inherit;
   /*background: rgba(0, 34, 51, 0.05);*/
-  background: #F2F3F4;
+  background: #f2f3f4;
 }
 pre code {
   overflow-y: scroll;
