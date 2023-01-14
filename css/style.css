@@ -160,3 +160,7 @@ hr {
 img {
   max-width: 100%;
 }
+
+#contact table > thead {
+  display: none;
+}
