@@ -113,8 +113,8 @@ ul > li {
 }
 
 #photography {
-  padding-right: 0 !important;
-  width: 800px !important;
+  /* padding-right: 0 !important; */
+  /* width: 800px !important; */
 }
 
 #photography section {
@@ -129,7 +129,7 @@ ul > li {
   text-align: center;
 }
 
-#photography a {
+#photography section a {
   color: inherit !important;
 }
 
