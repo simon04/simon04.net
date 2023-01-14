@@ -7,13 +7,13 @@ permalink: CV/
 Work Experience
 ---------------
 
-|since 01/2013|[Technisches Büro Buchauer Markus](https://www.tbbm.at/), Innsbruck|
-|09/2008–05/2009|non-military service: [Avalanche Warning Service Tyrol](http://lawine.tirol.gv.at/en/)|
+|2013-01…now|[Technisches Büro Buchauer Markus](https://www.tbbm.at/), Innsbruck|
+|2008-09…2009-05|non-military service: [Avalanche Warning Service Tyrol](http://lawine.tirol.gv.at/en/)|
 
 Education
 ---------
 
-|09/2010–11/2013|master in [computer science](ComputerScience)|
-|10/2006–11/2010|bachelor in computer science|
-|09/1998–06/2006|academic high school: [BRG Adolf-Pichler-Platz](http://www.brg-app.tsn.at/)|
-|09/1994–07/1998|elementary school: Volksschule Axams|
+|2010-09…2013-11|master in [computer science](ComputerScience)|
+|2006-10…2010-11|bachelor in computer science|
+|1998-09…2006-06|academic high school: [BRG Adolf-Pichler-Platz](http://www.brg-app.tsn.at/)|
+|1994-09…1998-07|elementary school: Volksschule Axams|
